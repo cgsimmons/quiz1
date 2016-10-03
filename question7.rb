@@ -1,5 +1,5 @@
 module HelperMethods
-  def HelperMethods.titleize(title)
+  def titleize(title)
     words = title.split
     no_caps = ["in", "the", "of", "and", "or", "from"]
     for i in 0...words.length
@@ -11,4 +11,5 @@ module HelperMethods
   end
 end
 
-# p HelperMethods.titleize("I am just a title of a book and stuff.")
+# include HelperMethods
+#  p titleize("I am just a title of a book and stuff.")
