@@ -11,5 +11,5 @@ module HelperMethods
   end
 end
 
-# include HelperMethods
-#  p titleize("I am just a title of a book and stuff.")
+ # include HelperMethods
+  # p titleize("I am just a title of a book and stuff.")
